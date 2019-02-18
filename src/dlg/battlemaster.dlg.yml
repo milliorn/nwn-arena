@@ -1,0 +1,824 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: DLG
+__struct_id: 4294967295
+DelayEntry: {type: dword, value: 0}
+DelayReply: {type: dword, value: 0}
+EndConverAbort: {type: resref, value: nw_walk_wp}
+EndConversation: {type: resref, value: nw_walk_wp}
+EntryList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 12}
+        IsChild: {type: byte, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 1
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 10}
+        IsChild: {type: byte, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 2
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 7}
+        IsChild: {type: byte, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 3
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 0}
+        IsChild: {type: byte, value: 0}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: "<FullName>, Welcome to Battle Royal!"
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 1
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 6}
+        IsChild: {type: byte, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 1
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 1}
+        IsChild: {type: byte, value: 0}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: "What shift in your alignment would you like?  \n\nBeware only warriors
+          would have taken classes in Druid may shift to Neutral alignment.\n\nOnce
+          you are level 40 you cannot change alignments."
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 2
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 4}
+        IsChild: {type: byte, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 1
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 3}
+        IsChild: {type: byte, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 2
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 2}
+        IsChild: {type: byte, value: 0}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: What alignment would you like?
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 3
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value: []
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Done.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 4
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value: []
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Done.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 5
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 5}
+        IsChild: {type: byte, value: 0}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: You cannot change your alignment.  You are level 40.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 6
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 9}
+        IsChild: {type: byte, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 1
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 8}
+        IsChild: {type: byte, value: 0}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: "<Sir/Madam>, you do realize this is permanent, correct?"
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 7
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value: []
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Done, goodbye <FullName>.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 8
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 11}
+        IsChild: {type: byte, value: 0}
+    Script: {type: resref, value: conv_lvl_up}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Sure, I can do that for you.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 9
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value: []
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: You have already been given XP to level up.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 10
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 13}
+        IsChild: {type: byte, value: 0}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Battle Royale is a fight involving combatants that fight until only one
+          fighter remains.  You slay each other until there is one survivor. Survival,
+          exploration and scavenging are elements of last-man-standing rules.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 11
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 14}
+        IsChild: {type: byte, value: 0}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: You start with minimal equipment and search for items to eliminate all
+          opponents while trying to avoid taking damge inside of a shrinking "safe
+          area".  The winner is the last competitor in the game.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 12
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 15}
+        IsChild: {type: byte, value: 0}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: A match starts by porting the player into a map.  Equipment is randomly
+          scattered around the map,  Players need to search the map for these items
+          while they avoid being killed by other players
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 13
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 16}
+        IsChild: {type: byte, value: 0}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: |-
+          Players are not visually marked on the map.  The player uses his or her own eyes and ears to deduce their positions along with their enemies position.
+
+          Equipment from eliminated players can be looted as well.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 14
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 17}
+        IsChild: {type: byte, value: 0}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Battle royale contestants are only given one life to play.  Players who
+          die are not allowed to respawn.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 15
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: conv_sc_lvl_up_n}
+        Index: {type: dword, value: 19}
+        IsChild: {type: byte, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 1
+        Active: {type: resref, value: conv_sc_lvl_up_y}
+        Index: {type: dword, value: 18}
+        IsChild: {type: byte, value: 0}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: I will need to level you up.  After you level up, you may enter the portal.  Portal
+          will take you to the Lobby where you await for the combat round to begin.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 16
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    Quest: {type: cexostr, value: ''}
+    RepliesList:
+      type: list
+      value: []
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Speaker: {type: cexostr, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Done.  Enjoy your time in Battle Royale!
+NumWords: {type: dword, value: 388}
+PreventZoomIn: {type: byte, value: 0}
+ReplyList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 1}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: "<Lord/Lady> Aribeth, I need my alignment shifted."
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 1
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: conv_sc_align}
+        Index: {type: dword, value: 5}
+        IsChild: {type: byte, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 1
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 2}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Ok, I still want to change my alignment.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 2
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value: []
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: I changed my mind.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 3
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 3}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: conv_align_evil}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Evil
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 4
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 4}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: conv_align_good}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Good.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 5
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value: []
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: OK.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 6
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value: []
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Ok, never mind then.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 7
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 6}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: "<Lord/Lady> Aribeth, I need you to delete me from this world."
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 8
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value: []
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Oh, sorry I do not wish to be deleted.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 9
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 7}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: conv_delete_pc}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Yes I do.  Please delete me.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 10
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: conv_sc_lvl_up_n}
+        Index: {type: dword, value: 9}
+        IsChild: {type: byte, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 1
+        Active: {type: resref, value: conv_sc_lvl_up_y}
+        Index: {type: dword, value: 8}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: "<Lord/Lady> Aribeth, I need to level up please."
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 11
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value: []
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Thank you <Lord/Lady> Aribeth.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 12
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 10}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: "<Lord/Lady> Aribeth, what is Battle Royale?"
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 13
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 11}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Tell me more.
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 14
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 12}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: What else?
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 15
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 13}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Can I use a map?  What about looting dead players?
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 16
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 14}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Can I respawn back into battle?
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 17
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 15}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: OK, let's get started.  What do I need?
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 18
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Active: {type: resref, value: ''}
+        Index: {type: dword, value: 16}
+        IsChild: {type: byte, value: 0}
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: conv_lvl_up}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: Sounds fun, level me up!
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 19
+    AnimLoop: {type: byte, value: 1}
+    Animation: {type: dword, value: 0}
+    Comment: {type: cexostr, value: ''}
+    Delay: {type: dword, value: 4294967295}
+    EntriesList:
+      type: list
+      value: []
+    Quest: {type: cexostr, value: ''}
+    Script: {type: resref, value: ''}
+    Sound: {type: resref, value: ''}
+    Text:
+      type: cexolocstr
+      value:
+        0: I have already gained xp from you.  Thank you for your help.
+StartingList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Active: {type: resref, value: ''}
+    Index: {type: dword, value: 0}

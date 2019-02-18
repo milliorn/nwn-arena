@@ -1,0 +1,35 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTM
+__struct_id: 4294967295
+BM_MarkDown: {type: int, value: 25}
+BlackMarket: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+ID: {type: byte, value: 0}
+IdentifyPrice: {type: int, value: 100}
+LocName:
+  type: cexolocstr
+  value:
+    0: Battle Royale Store
+MarkDown: {type: int, value: 65}
+MarkUp: {type: int, value: 100}
+MaxBuyPrice: {type: int, value: -1}
+OnOpenStore: {type: resref, value: ''}
+OnStoreClosed: {type: resref, value: ''}
+ResRef: {type: resref, value: battleroyalestor}
+StoreGold: {type: int, value: -1}
+StoreList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 0}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 4}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 2}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 3}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 1}
+Tag: {type: cexostr, value: BattleRoyaleStore}
+WillNotBuy:
+  type: list
+  value: []
+WillOnlyBuy:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 97869, BaseItem: {type: int, value: 76}}
